@@ -62,14 +62,12 @@ body {
   display: none;
 }
 /* responsive view */
-@media (max-width: 400px) {
+@media only screen and (max-width: 480px) {
   .container {
     width: 85%;
     padding: 23px;
   }
   .title {
-    font-size: 17px;
-    font-weight: 550;
     display: none;
   }
 
