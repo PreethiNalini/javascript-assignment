@@ -8,7 +8,7 @@ body {
   justify-content: center;
   background-color: #242582;
   color: #130f40;
-  overflow: hidden;
+   overflow-y: hidden;
 }
 
 .container {
