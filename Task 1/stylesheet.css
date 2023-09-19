@@ -75,13 +75,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-   
+   gap:10px;
   }
   #inputfields {
     font-size: 13px;
     padding: 4px;
     width: 143px;
-    margin-left: 8px;
+   
   }
   .btn {
     padding: 3px 5px;
