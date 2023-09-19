@@ -65,26 +65,29 @@ body {
 @media only screen and (max-width: 480px) {
   .container {
     width: 85%;
-    padding: 23px;
+    padding: 22px;
   }
   .title {
     display: none;
   }
-
+  .input-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   #inputfields {
     font-size: 14px;
     padding: 4px;
     margin: 0;
-    margin-left: 6px;
+    margin-left: 8px;
   }
   .btn {
     padding: 3px 5px;
   }
   .mobile-view {
     display: block;
+    font-size: 20px;
   }
   .label-name {
     font-size: 17px;
-     margin-bottom: 18px;
-  }
 }
