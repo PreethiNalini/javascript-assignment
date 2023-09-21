@@ -51,6 +51,5 @@ button {
 @media screen and (max-device-width: 720px) {
   .main {
     width: 90%;
-  
   }
 }
