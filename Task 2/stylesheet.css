@@ -48,7 +48,7 @@ button {
 }
 
 /* responsive view*/
-@media screen and (max-device-width: 720px) {
+@media screen and (max-device-width: 480px) {
   .main {
     width: 90%;
   }
