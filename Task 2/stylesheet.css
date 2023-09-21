@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("image/gradient-numerology-background_23-2150051037.avif")
+    no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 500px;
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+.heading {
+  text-transform: uppercase;
+  color: #242582;
+}
+.zipcode-inputField {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  display: block;
+  margin: 20px auto;
+}
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+}
+.result {
+  margin-top: 18px;
+  font-weight: bold;
+  color: #242582;
+}
+
+/* responsive view */
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 95%;
+  }
+}
