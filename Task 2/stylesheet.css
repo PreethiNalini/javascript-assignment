@@ -50,7 +50,7 @@ button {
 /* responsive view*/
 @media screen and (max-device-width: 720px) {
   .main {
-    width: 100%;
-    height:50%
+    width: 90%;
+    height:90%
   }
 }
