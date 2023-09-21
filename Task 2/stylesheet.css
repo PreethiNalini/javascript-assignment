@@ -43,9 +43,4 @@ button {
   color: #242582;
 }
 
-/* responsive view */
-@media only screen and (max-width: 480px) {
-  .container {
-    width: 95%;
-  }
-}
+
