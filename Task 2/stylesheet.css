@@ -52,4 +52,6 @@ button {
   .main {
     width: 90%;
   }
+  .zipcode-inputField{
+    width:80%;
 }
