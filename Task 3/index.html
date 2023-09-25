@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Package Delivery Calculator</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Destination Date</h1>
+      <label for="startLocation" class="location">Start Location:</label>
+      <select id="startLocation" class="selectValue">
+        <option value="Tirunelveli">Tirunelveli</option>
+        <option value="Madurai">Madurai</option>
+        <option value="Trichy">Trichy</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Coimbatore">Coimbatore</option>
+        <option value="Salem">Salem</option>
+        <option value="Mumbai">Mumbai</option>
+      </select>
+
+      <label for="endLocation" class="location">End Location:</label>
+      <select id="endLocation" class="selectValue">
+        <option value="Madurai" class="value">Madurai</option>
+        <option value="Tirunelveli">Tirunelveli</option>
+        <option value="Trichy">Trichy</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Coimbatore">Coimbatore</option>
+        <option value="Salem">Salem</option>
+        <option value="Mumbai">Mumbai</option>
+      </select>
+
+      <label for="startDate" class="location">Start Date:</label>
+      <input type="text" id="startDate" required />
+      <button onclick="calculateDelivery()" class="output">Calculate</button>
+      <div id="result"></div>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
