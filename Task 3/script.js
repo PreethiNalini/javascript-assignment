@@ -19,6 +19,7 @@ function calculateDelivery() {
       date
     )} ${deliveryDate.toLocaleString("default", { month: "short" })}.`;
     resultDiv.style.textAlign = "center";
+    resultDiv.style.backgroundColor = "#008000";
   } else {
     const resultDiv = document.getElementById("result");
     resultDiv.innerHTML = "Route not found";
