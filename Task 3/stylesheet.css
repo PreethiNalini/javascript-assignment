@@ -60,10 +60,4 @@ select.selectValue {
 #result {
   font-size: 15px;
 }
-/* responsive webpage */
 
-@media only screen and (max-width: 480px) {
-  .container {
-    width: 90%;
-  }
-}
