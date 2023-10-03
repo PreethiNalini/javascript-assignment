@@ -16,7 +16,7 @@ function calculateDelivery() {
      <br>${totalDaysArr.join(
        "+"
      )} = ${totalDays} days. ${final} Start -> Arrive on ${deliveryDate.getDate()}${nth(
-      date
+    deliveryDate
     )} ${deliveryDate.toLocaleString("default", { month: "short" })}.`;
     resultDiv.style.textAlign = "center";
     resultDiv.style.backgroundColor = "#008000";
