@@ -15,9 +15,7 @@ function calculateDelivery() {
     resultDiv.innerHTML = `Route: ${route.join(" -> ")}
      <br>${totalDaysArr.join(
        "+"
-     )} = ${totalDays} days. ${final} Start -> Arrive on ${deliveryDate.getDate()}${nth(
-    deliveryDate
-    )} ${deliveryDate.toLocaleString("default", { month: "short" })}.`;
+     )} = ${totalDays} days. ${final} Start -> Arrive on ${deliveryDate.getDate()}${nth()} ${deliveryDate.toLocaleString("default", { month: "short" })}.`;
     resultDiv.style.textAlign = "center";
     resultDiv.style.backgroundColor = "#008000";
   } else {
